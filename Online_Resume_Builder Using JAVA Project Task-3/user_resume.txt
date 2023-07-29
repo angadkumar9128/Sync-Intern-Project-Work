@@ -1,0 +1,25 @@
+Name: angad
+Email: kumar@
+Phone: 91289
+Educational Institute: kpr
+Course Name: BE
+Course Stream: CSE
+Education: 12TH
+
+Experience:
+Company Name: BOSCO
+Job Title: SOFTWARE DEVLOPER
+Years of Experience: 2
+Skills: [JAVA DEVLOPER, PYTHON , HTML, CSS, JAVASCRIPT]
+
+Company Name: sync intern
+Job Title: full stuck
+Years of Experience: 2
+Skills: []
+
+
+Projects:
+Project Name: ham tumhare hai kon website
+Project Title: dil de chuke sanam
+Project Description: tum hi to ho.
+
