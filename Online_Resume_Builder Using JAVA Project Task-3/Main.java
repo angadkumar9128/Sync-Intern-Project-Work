@@ -20,13 +20,13 @@ public class Main {
         System.out.print("Enter your educational institute name: ");
         String educationalInstitute = scanner.nextLine();
 
-        System.out.print("Enter your course name: ");
+        System.out.print("Enter your Degree name: ");
         String courseName = scanner.nextLine();
 
         System.out.print("Enter your course stream name: ");
         String courseStream = scanner.nextLine();
 
-        System.out.print("Enter your education details: ");
+        System.out.print("Enter your another education details: ");
         String education = scanner.nextLine();
 
         ResumeBuilder resumeBuilder = new ResumeBuilder();
@@ -46,7 +46,7 @@ public class Main {
                 break;
             }
 
-            System.out.print("Enter job title: ");
+            System.out.print("Enter job Role: ");
             String jobTitle = scanner.nextLine();
 
             System.out.print("Enter years of experience: ");
@@ -78,7 +78,7 @@ public class Main {
                 break;
             }
 
-            System.out.print("Enter project title: ");
+            System.out.print("Enter project (Start to end) Date: ");
             String projectTitle = scanner.nextLine();
 
             System.out.print("Enter project description: ");
@@ -103,9 +103,9 @@ public class Main {
             System.out.println("Email: " + retrievedResume.getEmail());
             System.out.println("Phone: " + retrievedResume.getPhone());
             System.out.println("Educational Institute: " + retrievedResume.getEducationalInstitute());
-            System.out.println("Course Name: " + retrievedResume.getCourseName());
+            System.out.println("Degree Name: " + retrievedResume.getCourseName());
             System.out.println("Course Stream: " + retrievedResume.getCourseStream());
-            System.out.println("Education: " + retrievedResume.getEducation());
+            System.out.println("Another Education Details: " + retrievedResume.getEducation());
 
             // Display experience details
             List<Experience> experiences = retrievedResume.getExperiences();
@@ -113,7 +113,7 @@ public class Main {
                 System.out.println("\nExperience:");
                 for (Experience experience : experiences) {
                     System.out.println("Company Name: " + experience.getCompanyName());
-                    System.out.println("Job Title: " + experience.getJobTitle());
+                    System.out.println("Job Role: " + experience.getJobTitle());
                     System.out.println("Years of Experience: " + experience.getYearsOfExperience());
                     System.out.println("Skills: " + experience.getSkills());
                     System.out.println();
@@ -126,7 +126,7 @@ public class Main {
                 System.out.println("\nProjects:");
                 for (Project project : projects) {
                     System.out.println("Project Name: " + project.getProjectName());
-                    System.out.println("Project Title: " + project.getProjectTitle());
+                    System.out.println("Project (Start to End) date: " + project.getProjectTitle());
                     System.out.println("Project Description: " + project.getProjectDescription());
                     System.out.println();
                 }
@@ -150,7 +150,7 @@ public class Main {
             writer.newLine();
             writer.write("Educational Institute: " + resume.getEducationalInstitute());
             writer.newLine();
-            writer.write("Course Name: " + resume.getCourseName());
+            writer.write("Degree Name: " + resume.getCourseName());
             writer.newLine();
             writer.write("Course Stream: " + resume.getCourseStream());
             writer.newLine();
@@ -166,7 +166,7 @@ public class Main {
                 for (Experience experience : experiences) {
                     writer.write("Company Name: " + experience.getCompanyName());
                     writer.newLine();
-                    writer.write("Job Title: " + experience.getJobTitle());
+                    writer.write("Job Role: " + experience.getJobTitle());
                     writer.newLine();
                     writer.write("Years of Experience: " + experience.getYearsOfExperience());
                     writer.newLine();
@@ -185,7 +185,7 @@ public class Main {
                 for (Project project : projects) {
                     writer.write("Project Name: " + project.getProjectName());
                     writer.newLine();
-                    writer.write("Project Title: " + project.getProjectTitle());
+                    writer.write("Project (Start to End) Date: " + project.getProjectTitle());
                     writer.newLine();
                     writer.write("Project Description: " + project.getProjectDescription());
                     writer.newLine();

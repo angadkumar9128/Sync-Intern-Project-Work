@@ -1,25 +1,24 @@
-Name: angad
-Email: kumar@
-Phone: 91289
-Educational Institute: kpr
-Course Name: BE
+Name: Angad kumar
+Email: kumarangad@gmail.com
+Phone: 9128987654
+Educational Institute: Kpr Institute of Engineering and technology
+Degree Name: B.E
 Course Stream: CSE
-Education: 12TH
+Another Education: 12TH
 
 Experience:
 Company Name: BOSCO
-Job Title: SOFTWARE DEVLOPER
+Job Role: SOFTWARE DEVLOPER
 Years of Experience: 2
-Skills: [JAVA DEVLOPER, PYTHON , HTML, CSS, JAVASCRIPT]
+Skills: [JAVA DEVLOPER, PYTHON , HTML, CSS, JAVASCRIPT css, mypql,JAVASCRIPT]
 
 Company Name: sync intern
-Job Title: full stuck
+Job Role: full stuck developer
 Years of Experience: 2
-Skills: []
+Skills: [java programing,python html,css,laravel,php,mysql ]
 
 
 Projects:
-Project Name: ham tumhare hai kon website
-Project Title: dil de chuke sanam
-Project Description: tum hi to ho.
-
+Project Name: Online Resume Building 
+Project (Start to End) Date : 15/07/2023 to 15/08/2023
+Project Description: In this project we can create resume by taking user input through terminal and print on pdf.

@@ -4,9 +4,9 @@ public class ElectricityBillingSystem {
     public static void main(String[] args) {
         try (Scanner input = new Scanner(System.in)) {
 			// Constants for tariff rates
-			final double RATE_1 = 0.2;
-			final double RATE_2 = 0.3;
-			final double RATE_3 = 0.5;
+			final double RATE_1 = 8.00;
+			final double RATE_2 = 13.00;
+			final double RATE_3 = 18.00;
 
 			System.out.print("Enter the customer name: ");
 			String customerName = input.nextLine();
@@ -43,7 +43,7 @@ public class ElectricityBillingSystem {
 			System.out.println("Previous Reading: " + previousReading);
 			System.out.println("Current Reading: " + currentReading);
 			System.out.println("Units Consumed: " + unitsConsumed);
-			System.out.println("Total Amount: $" + totalAmount);
+			System.out.println("Total Amount: " + totalAmount +" Rupees Only");
 		}
     }
 }
